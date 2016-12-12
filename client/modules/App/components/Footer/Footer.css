@@ -1,12 +1,30 @@
 .footer{
   text-align: center;
-  padding: 56px 0;
-  background-size: cover;
+  padding: 23px;
+  
+   position:fixed;
+   left:424px;
+   top:565px;
+
+ 
+  bottom: 0;
+ 
+  margin-top: 10px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  font-size: 24px;
+width:500px;
+  height:95px;
+  background:url('./logo.png') ;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+  
 }
 
 .footer p{
   margin: 0 0 8px 0;
-  font-size: 14px;
+  font-size: 24px;
   color: #FFF;
 }
 
@@ -14,4 +32,31 @@
   color: #FFF;
   text-decoration: none;
   font-weight: 700;
+}
+
+@media (max-width: 800px){
+.footer{
+ 
+
+  
+   position:fixed;
+   left:-19px;
+   top:440px;
+
+ 
+  bottom: 0;
+ 
+  margin-top: 10px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  font-size: 24px;
+width:400px;
+ 
+  background:url('./logo.png') ;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 43%;
+  
+}
+
 }

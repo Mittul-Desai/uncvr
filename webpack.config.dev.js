@@ -23,7 +23,7 @@ module.exports = {
   output: {
     path: __dirname,
     filename: 'app.js',
-    publicPath: 'http://0.0.0.0:8000/',
+    publicPath: 'http://192.168.5.53:8000/',
   },
 
   resolve: {
@@ -50,7 +50,7 @@ module.exports = {
         loader: 'babel',
       }, {
         test: /\.(jpe?g|gif|png|svg)$/i,
-        loader: 'url-loader?limit=10000',
+        loader: 'url-loader?limit=50000',
       }, {
         test: /\.json$/,
         loader: 'json-loader',
